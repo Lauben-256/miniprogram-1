@@ -2,7 +2,11 @@
 // 获取应用实例
 const app = getApp()
 
-Page({})
+Page({
+  onLoad() {
+    console.log("Hello World!");
+  }
+})
 
 // Page({
 //   data: {
